@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+<link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CapitolHill</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
+    }
+    header, footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: white;
+    }
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+      background-color: #eee;
+    }
+    .columns {
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    .column {
+      flex: 1;
+      margin: 0 1rem;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem;
+    }
+    .headline {
+      margin-bottom: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #eee;
+    }
+    .headline a {
+      text-decoration: none;
+      color: #0055cc;
+    }
+    .headline .timestamp {
+      color: #888;
+      font-size: 0.85rem;
+    }
+    .footer-links {
+      padding: 1rem;
+      text-align: center;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+    .footer-links a {
+      margin: 0 0.5rem;
+      color: #0055cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAPITOLHILL</h1>
+    <p>Real-Time U.S. Federal Government News<br>
+    White House • Congress • Supreme Court</p>
+  </header>
+
+  <div class="toolbar">
+    <div>
+      <button>⚪ Light Mode</button>
+      <button>🔲 Dark Mode</button>
+    </div>
+    <div>
+      <button>🔔 Subscribe</button>
+      <button>🔐 Login</button>
+      <button>⭐ Upgrade</button>
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <h2>WHITE HOUSE</h2>
+      <div class="headline">
+        <div class="timestamp">🕒 12:34 PM ET</div>
+        <a href="#">President signs clean energy bill</a><br>
+        💬 12 Comments
+      </div>
+      <div class="headline">
+        <div class="timestamp">🕒 11:58 AM ET</div>
+        <a href="#">WH Press briefing set for 2:30 PM</a><br>
+        💬 7 Comments
+      </div>
+    </div>
+
+    <div class="column">
+      <h2>CONGRESS</h2>
+      <div class="headline">
+        <div class="timestamp">🕒 12:32 PM ET</div>
+        <a href="#">House passes new spending resolution</a><br>
+        💬 45 Comments
+      </div>
+      <div class="headline">
+        <div class="timestamp">🕒 11:40 AM ET</div>
+        <a href="#">Senate schedules vote on judicial nominee</a><br>
+        💬 18 Comments
+      </div>
+    </div>
+
+    <div class="column">
+      <h2>SUPREME COURT</h2>
+      <div class="headline">
+        <div class="timestamp">🕒 12:30 PM ET</div>
+        <a href="#">Oral arguments begin in major gun case</a><br>
+        💬 78 Comments
+      </div>
+      <div class="headline">
+        <div class="timestamp">🕒 11:15 AM ET</div>
+        <a href="#">Justice Alito issues solo dissent in 6–3</a><br>
+        💬 29 Comments
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    ▼▼ Auto-updating every 2 minutes ▼▼<br><br>
+    ✉️ Get our 5PM Summary • 🧠 <a href="#">Explainer: What the SCOTUS Gun Case Really Means</a><br><br>
+    🧭 Track by Tag: <a href="#">Budget</a> <a href="#">Executive Orders</a>
+    <a href="#">Impeachment</a> <a href="#">Elections</a>
+    <p>Want to weigh in? ➤ <a href="#">Upgrade to Premium 🟊</a> to join headline discussions.</p>
+  </div>
+
+  <footer>
+    <p>© 2025 CapitolHill.news — All source links retained. No ads. No bias. Just data.</p>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
